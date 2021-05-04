@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="hu">
+ <head>
+    <title>Videó lejátszása</title>
+    <meta charset="UTF-8">
+
+	<style>
+		article, section, aside, nav, header, footer { 
+			display: block;
+		}
+
+		.fejlec {
+			font-size: 18pt;
+			font-family: Helvetica;
+			margin-top: 20px;
+			margin-bottom: 20px;
+			font-weight: bold;
+			}
+
+		.urlap {
+			padding: 30px;
+			font-size: 12px;
+			font-family: Helvetica;
+			background: #dfe3ea;
+			width: 500px;
+			height: 300px;
+			border-radius: 10px;
+			box-shadow: 5px 5px 10px #888888;
+			}
+		.laplec {
+			width: 560px;
+			font-size: 10pt;
+			margin-top: 40px;
+			border-top: 3px #888888 double;
+			padding-top: 30px;
+			text-align:right;
+			font-family: Helvetica;
+			}
+
+
+	</style>
+
+		<!--<script>
+			document.createElement('article');
+			document.createElement('section');
+			document.createElement('aside');
+			document.createElement('nav');
+			document.createElement('header');
+			document.createElement('footer');
+		</script> -->
+  </head>
+
+ <body>
+  <header id="fejlec" class="fejlec">
+		Videó lejátszása
+	</header>
+	<section id="tartalom">
+		<video width="640" controls autoplay>
+			<source src="HTML5_video2.mp4" type="video/mp4">
+			A böngésző nem támogatja a HTM videók lejátszását.
+			</source>
+		</video>
+	</section>
+
+	<footer id="labtech" class="labtech">
+		Forrás:
+			<a href="http://www.w3schools.com/html/html5_video.asp" target="ujablak">http://www.w3schools.com/html/html5_video.asp
+		</a>
+	</footer>
+
+ </body>
+</html>
